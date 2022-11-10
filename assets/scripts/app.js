@@ -120,7 +120,12 @@ const calculate = (operation) => {
 // multiplyBtn.addEventListener('click', multiply);
 // divideBtn.addEventListener('click', divide);
 
-addBtn.addEventListener('click', calculate.bind(this, 'ADD'));
-subtractBtn.addEventListener('click', calculate.bind(this, 'SUBTRACT'));
-multiplyBtn.addEventListener('click', calculate.bind(this, 'MULTIPLY'));
-divideBtn.addEventListener('click', calculate.bind(this, 'DIVIDE'));
+// addBtn.addEventListener('click', calculate.bind(this, 'ADD'));
+// subtractBtn.addEventListener('click', calculate.bind(this, 'SUBTRACT'));
+// multiplyBtn.addEventListener('click', calculate.bind(this, 'MULTIPLY'));
+// divideBtn.addEventListener('click', calculate.bind(this, 'DIVIDE'));
+
+addBtn.addEventListener('click', () => calculate('ADD'));
+subtractBtn.addEventListener('click', () => calculate('SUBTRACT'));
+multiplyBtn.addEventListener('click', () => calculate('MULTIPLY'));
+divideBtn.addEventListener('click', () => calculate('DIVIDE'));
