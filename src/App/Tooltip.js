@@ -1,4 +1,5 @@
 // import { Component } from "./Component.js";
+// eslint-disable-next-line no-unused-vars
 import Component, { sampleFunc } from "./Component.js"; //id default you can omit the object and name any alias
 
 export class Tooltip extends Component {
